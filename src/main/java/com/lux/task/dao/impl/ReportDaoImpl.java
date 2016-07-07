@@ -1,7 +1,6 @@
 package com.lux.task.dao.impl;
 
 import com.lux.task.dao.ReportDao;
-import com.lux.task.dao.models.Product;
 import com.lux.task.dao.models.ReportLine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;

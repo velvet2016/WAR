@@ -3,7 +3,6 @@ package com.lux.task.dao.impl;
 import com.lux.task.dao.PurchaseDao;
 import com.lux.task.dao.models.Purchase;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 

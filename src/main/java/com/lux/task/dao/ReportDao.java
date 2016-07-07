@@ -1,6 +1,5 @@
 package com.lux.task.dao;
 
-import com.lux.task.dao.models.Purchase;
 import com.lux.task.dao.models.ReportLine;
 
 import java.util.List;

@@ -7,8 +7,6 @@ import com.lux.task.dao.models.ReportLine;
 import com.lux.task.dao.services.ProductService;
 import com.lux.task.dao.services.PurchaseService;
 import com.lux.task.dao.services.ReportService;
-import com.lux.task.validators.PurchaseValidator;
-import com.lux.task.validators.ReportArgumentsValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
