@@ -21,8 +21,8 @@ public class ReportDaoImpl implements ReportDao {
     public List<ReportLine> getReport(int numberOfMonths) {
         MapSqlParameterSource paramMap = new MapSqlParameterSource();
         paramMap.addValue("monthCount", numberOfMonths);
-        String sql = "select pr.*,  ps.*,  pr.price*ps.quantity sum from products pr\n" +
-                "left join purchases ps on pr.name = ps.product\n" +
+        String sql = "select pr.*,  ps.*,  pr.price*ps.quantity sum from PRODUCTS pr\n" +
+                "join PURCHASES ps on pr.name = ps.product\n" +
                 "where ps.purchase_date>date_sub(now(), interval ? month) " +
                 "and ps.purchase_date<now() order by purchase_date desc;";
         return jdbcTemplate.getJdbcOperations().query(sql, new RowMapper<ReportLine>() {

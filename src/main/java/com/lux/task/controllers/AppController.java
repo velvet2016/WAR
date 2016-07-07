@@ -37,7 +37,7 @@ public class AppController {
         binder.registerCustomEditor(Date.class, "purchaseDate", new CustomDateEditor(dateFormat, false));
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public ModelAndView home() {
         return new ModelAndView("index");
     }

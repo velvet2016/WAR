@@ -14,7 +14,7 @@
     }
 </style>
 <body>
-<a href="/"><b>home</b></a>
+<a href="home"><b>home</b></a>
 <div  >
 
         <div>

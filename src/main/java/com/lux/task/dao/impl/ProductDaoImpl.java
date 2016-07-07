@@ -18,7 +18,7 @@ public class ProductDaoImpl implements ProductDao {
     private NamedParameterJdbcTemplate jdbcTemplate;
 
     public List<Product> getAll() {
-        String sql = "select * from products order by name";
+        String sql = "select * from PRODUCTS order by name";
        return jdbcTemplate.getJdbcOperations().query(sql, new RowMapper<Product>() {
             public Product mapRow(ResultSet resultSet, int i) throws SQLException {
                 Product product = new Product();

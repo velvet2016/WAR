@@ -6,7 +6,7 @@
     <title>details of added purchase</title>
 </head>
 <body>
-<a href="/">home</a>
+<a href="home">home</a>
 
 
 

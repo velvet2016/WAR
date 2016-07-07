@@ -5,13 +5,13 @@
     <title>get_report</title>
 </head>
 <body>
-<a href="/"><b>home</b></a>
+<a href="home"><b>home</b></a>
 <div>
     <p>
         <form:errors path="reportArgs.*"></form:errors>
     </p>
 </div>
-<form method="post" action="/report_list_purchases">
+<form method="post" action="report_list_purchases">
 
     <div>
         <p>
